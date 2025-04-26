@@ -1,10 +1,12 @@
 # Chat-AI-Agent-Text-to-Image-Convertor
 
 # 🎨 DreamWeaver AI (n8n + OpenRouter + Hugging Face + Cloud Storage + Google Sheets)
+
 An intelligent AI Image Generator built using n8n, OpenRouter API, Hugging Face (Stable Diffusion XL), Cloudflare R2 storage, and Google Sheets.
 This system takes text prompts from users, generates high-quality images, and logs everything — securely and automatically. 🚀🖼️
 
 ## 🔧 Tech Stack
+
 🤖 AI Agent: OpenRouter API
 
 🎛️ Workflow Automation: n8n (self-hosted)
@@ -17,16 +19,17 @@ This system takes text prompts from users, generates high-quality images, and lo
 
 ![System Architecture Diagram](docs/SystemArchitectureDiagram.png)
 
-
 # 📊 Data Logging: Google Sheets
 
 # 🖥️ Presentation: Prezi Interactive Presentation
-https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/ 
+
+https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ## 🚀 Features
+
 ✅ Prompt Validation: Only processes valid visual prompts
 
-![System Architecture Diagram](screenshots/AI Agent.png)
+![System Architecture Diagram](docs/SystemArchitectureDiagram.png)
 
 ✅ Prompt Enhancement: Adds styles like "hyperrealistic, soft lighting" automatically
 
@@ -41,6 +44,7 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 ✅ Fully Modular Design: Easy to expand or integrate
 
 ## 🧠 How It Works
+
 ✅ User Input: User types a prompt into n8n chat agent.
 
 ✅ Prompt Validation: AI Agent checks if the prompt is visual.
@@ -57,29 +61,47 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ## 📈 Performance Metrics
 
-## Metric	                          Value
-Average Image Generation	      ~6–8 seconds
-S3 Upload Time	                  ~1–2 seconds
-Google Sheets Logging	            ~1 second
-End-to-End Workflow Completion	~10–12 seconds
+## Metric
+
+- Average Image Generation - ~6–8 seconds
+- S3 Upload Time - ~1–2 seconds
+- Google Sheets Logging - ~1 second
+- End-to-End Workflow Completion ~10–12 seconds
 
 ## 📄 Key Nodes Summary
+
 ### 🔧 AI Agent Node:
+
 Validates user input and ensures only visual prompts are processed.
 
+![AI Agent Node](screenshots/AI_Agent.png)
+
 ### 🎨 Build Final Prompt Node:
+
 Enhances raw prompts into rich, artistic styles automatically.
 
+![Build Final Prompt Node](screenshots/Build_Final_Prompt.png)
+
 ### 🌐 HTTP Request Node:
+
 Sends prompts to Hugging Face for image generation.
 
+![HTTP Request Node](screenshots/HTTP_Request.png)
+
 ### 📦 S3 Node:
+
 Uploads generated images with dynamic timestamped filenames.
 
+![S3 Node](screenshots/S3.png)
+
 ### 📊 Google Sheets Node:
+
 Logs prompt and public image URL for future access and analysis.
 
+![Google Sheets Node](screenshots/Google_Sheets.png)
+
 ## 🧠 Prompt Engineering Strategies
+
 ✅ System role-enforcement: AI acts only as an image generator.
 
 ✅ Fallback messaging for invalid prompts.
@@ -87,29 +109,33 @@ Logs prompt and public image URL for future access and analysis.
 ✅ Style augmentation ("hyperrealistic style with warm lighting") for better images.
 
 ## 🧠 Lessons Learned
-Mastered building modular low-code AI workflows with n8n.
 
-Improved understanding of prompt engineering impacts on outputs.
+- Mastered building modular low-code AI workflows with n8n.
 
-Implemented secure, authenticated API interactions.
+- Improved understanding of prompt engineering impacts on outputs.
 
-Developed strong ethical AI deployment practices.
+- Implemented secure, authenticated API interactions.
+
+- Developed strong ethical AI deployment practices.
 
 ## 🚧 System Limitations & Improvements
 
-✅ Limitation	                       
-No manual style selection
+✅ Limitation
 
-Rating Collection	 
+- No manual style selection
 
-Analytics Dashboard                  
-                                        
+- Rating Collection
+
+- Analytics Dashboard
+
 ✅ Future Improvement
-Add image style presets for users
 
-Ask the user to rate the output (1–5 stars) to collect valuable training signals
+- Add image style presets for users
 
-Develop a visual dashboard (via Looker Studio or Google Sheets Charts) to track prompts trends, styles used, and average ratings
+- Ask the user to rate the output (1–5 stars) to collect valuable training signals
+
+- Develop a visual dashboard (via Looker Studio or Google Sheets Charts) to track prompts trends, styles used, and average ratings
 
 ## 📝 Author
+
 Thivya Dhanasegaran
