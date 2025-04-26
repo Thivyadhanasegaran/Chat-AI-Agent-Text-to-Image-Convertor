@@ -29,8 +29,6 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ✅ Prompt Validation: Only processes valid visual prompts
 
-![System Architecture Diagram](docs/SystemArchitectureDiagram.png)
-
 ✅ Prompt Enhancement: Adds styles like "hyperrealistic, soft lighting" automatically
 
 ✅ AI Image Generation: Powered by Stable Diffusion XL
