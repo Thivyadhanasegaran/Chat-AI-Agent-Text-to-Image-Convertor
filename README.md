@@ -22,26 +22,31 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 ✅ Prompt Validation: Only processes valid visual prompts
 
 ✅ Prompt Enhancement: Adds styles like "hyperrealistic, soft lighting" automatically
+
 ✅ AI Image Generation: Powered by Stable Diffusion XL
+
 ✅ Cloud Storage Upload: Images saved securely to S3-compatible storage
+
 ✅ Google Sheets Logging: Saves prompt + image URL for traceability
+
 ✅ Error Handling: Friendly messages for invalid prompts
+
 ✅ Fully Modular Design: Easy to expand or integrate
 
 ## 🧠 How It Works
-User Input: User types a prompt into n8n chat agent.
+✅ User Input: User types a prompt into n8n chat agent.
 
-Prompt Validation: AI Agent checks if the prompt is visual.
+✅ Prompt Validation: AI Agent checks if the prompt is visual.
 
-Prompt Enhancement: Raw prompt is transformed to improve image quality.
+✅ Prompt Enhancement: Raw prompt is transformed to improve image quality.
 
-API Call: Enhanced prompt sent to Hugging Face to generate an image.
+✅ API Call: Enhanced prompt sent to Hugging Face to generate an image.
 
-Cloud Upload: Generated image uploaded to Cloudflare R2.
+✅ Cloud Upload: Generated image uploaded to Cloudflare R2.
 
-Google Sheets Logging: Final prompt and image URL logged automatically.
+✅ Google Sheets Logging: Final prompt and image URL logged automatically.
 
-Output: User receives a direct link to their AI-generated image.
+✅ Output: User receives a direct link to their AI-generated image.
 
 ## 📈 Performance Metrics
 
