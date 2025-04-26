@@ -13,6 +13,11 @@ This system takes text prompts from users, generates high-quality images, and lo
 
 ☁️ Cloud Storage: Cloudflare R2 (S3-compatible)
 
+## System Architecture
+
+![System Architecture Diagram](docs/SystemArchitectureDiagram.png)
+
+
 # 📊 Data Logging: Google Sheets
 
 # 🖥️ Presentation: Prezi Interactive Presentation
@@ -20,6 +25,8 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ## 🚀 Features
 ✅ Prompt Validation: Only processes valid visual prompts
+
+![System Architecture Diagram](screenshots/AI Agent.png)
 
 ✅ Prompt Enhancement: Adds styles like "hyperrealistic, soft lighting" automatically
 
@@ -90,26 +97,19 @@ Developed strong ethical AI deployment practices.
 
 ## 🚧 System Limitations & Improvements
 
-      Limitation	                       Future Improvement
-No manual style selection	          Add image style presets for users
-    Rating Collection	                Ask the user to rate the output (1–5 stars) to collect valuable training signals
-   Analytics Dashboard                  Develop a visual dashboard (via Looker Studio or Google Sheets Charts) to track prompts trends, 
-                                        styles used, and average ratings
+✅ Limitation	                       
+No manual style selection
 
-## 📂 Repository Structure
+Rating Collection	 
 
-DreamWeaverAI/
-├── workflows/
-│   └── Chat_AI_Agent_Text_to_Image_Convertor_workflow.json
-├── docs/
-│   ├── SystemArchitectureDiagram.png
-│   └── DreamWeaver_AI_Final report.pdf
-├── screenshots/
-│   └── sample_images/
-├── README.md
-├── Live Demo
-├── Interactive Prezi Presentation
+Analytics Dashboard                  
+                                        
+✅ Future Improvement
+Add image style presets for users
 
+Ask the user to rate the output (1–5 stars) to collect valuable training signals
+
+Develop a visual dashboard (via Looker Studio or Google Sheets Charts) to track prompts trends, styles used, and average ratings
 
 ## 📝 Author
 Thivya Dhanasegaran
