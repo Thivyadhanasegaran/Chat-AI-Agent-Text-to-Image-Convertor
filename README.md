@@ -20,6 +20,7 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ## 🚀 Features
 ✅ Prompt Validation: Only processes valid visual prompts
+
 ✅ Prompt Enhancement: Adds styles like "hyperrealistic, soft lighting" automatically
 ✅ AI Image Generation: Powered by Stable Diffusion XL
 ✅ Cloud Storage Upload: Images saved securely to S3-compatible storage
