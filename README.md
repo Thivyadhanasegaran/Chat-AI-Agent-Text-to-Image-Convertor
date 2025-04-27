@@ -47,6 +47,8 @@ https://prezi.com/view/A7Imv7mCvR6HrUwFmItS/
 
 ✅ Prompt Validation: AI Agent checks if the prompt is visual.
 
+  Simple Memeory: Simple Memory node enhances the chatbot's conversational experience by    retaining the last few user interactions within a session
+
 ✅ Prompt Enhancement: Raw prompt is transformed to improve image quality.
 
 ✅ API Call: Enhanced prompt sent to Hugging Face to generate an image.
@@ -79,6 +81,12 @@ Validates user input and ensures only visual prompts are processed.
 Enhances raw prompts into rich, artistic styles automatically.
 
 ![Build Final Prompt Node](screenshots/Build_Final_Prompt.png)
+
+### 🎨 Simple Memory Node:
+
+Enhances the chatbot's conversational experience by retaining the last few user interactions within a session
+
+![Simple Memory Node](screenshots/Simple_Memory.png)
 
 ### 🌐 HTTP Request Node:
 
