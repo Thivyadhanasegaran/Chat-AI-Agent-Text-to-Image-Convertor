@@ -17,7 +17,7 @@ This system takes text prompts from users, generates high-quality images, and lo
 
 ## System Architecture
 
-![System Architecture Diagram](docs/SystemArchitectureDiagram.png)
+![System Architecture Diagram](screenshots/SystemArchitectureDiagram.png)
 
 # 📊 Data Logging: Google Sheets
 
