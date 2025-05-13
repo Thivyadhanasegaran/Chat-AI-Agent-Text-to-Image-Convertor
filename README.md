@@ -15,6 +15,11 @@ This system takes text prompts from users, generates high-quality images, and lo
 
 ☁️ Cloud Storage: Cloudflare R2 (S3-compatible)
 
+## ▶️ Live Demo
+
+   [Watch Live Demo](https://drive.google.com/file/d/1L0yxPjot0pwITT5vWyJDAKxhW0RYHIVx/view?usp=drive_link)
+
+
 ## System Architecture
 
 ![System Architecture Diagram](screenshots/SystemArchitectureDiagram.png)
